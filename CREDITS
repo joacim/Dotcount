@@ -1,0 +1,14 @@
+Credits
+
+Thanks to Tom Gibara for implementing the Marching Squares algorithm and 
+releasing his work into the public domain. Reading and understanding the 
+algorithm through his implementation saved me some valuable time during 
+my own re-implementation.
+
+Tom Gibara's web page for his implementation of the algorithm:
+http://www.tomgibara.com/computer-vision/marching-squares
+
+Thanks to my wife Sedsel Fretheim Thomassen for her feedback and support.
+
+
+30-7-2011, Joacim

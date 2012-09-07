@@ -1,0 +1,46 @@
+This software was built and tested on Ubuntu 10.04 LTS GNU/Linux
+
+
+## Users: Using dotcount as it is ##
+
+Dotcount depends on another software component, the NetPBM library.
+Ubuntu will install this component for you if you search for libnetpbm10
+in the Ubuntu Software Center and select install. 
+
+Copy the pre-built dotcount executable to your system's program path:
+
+sudo cp /media/<MY_MEDIA>/bin/dotcount /usr/local/bin/dotcount
+
+(replace '<MY_MEDIA>' by the cdrom/usb name given to your media 
+containing Dotcount)
+
+If the pre-built executable somehow has been altered it might have lost
+something called the executable flag. To re-gain this flag you write:
+
+sudo chmod a+x /usr/local/bin/dotcount
+
+(if the flag was present, nothing happens - so don't worry)
+
+Now you're ready to start using dotcount.
+
+
+## Developers: Making changes and building the executable yourself ##
+
+To build dotcount from source you will need the software components:
+  build-essential
+  libnetpbm10-dev
+
+They provide the g++ compiler for building and the development library
+for NetPBM with header files like /usr/include/pam.h.
+
+You build dotcount from source with:
+make
+
+Install your latest build to your system's program path with:
+sudo make install
+
+Your self built version of dotcount is know installed on your system, 
+and you're ready to start using it.
+
+
+30-7-2011, Joacim

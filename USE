@@ -1,0 +1,16 @@
+Do the required image preparations in a photo editor like the GIMP.
+
+Required properties for the prepared input image:
+	* .pnm format
+	* greyscale (depth = 1)
+	* binary => two different sample values (black:0, white:255)
+	* 8-bit samples
+Please read the documentation for more details regarding the preparations.
+
+Running Dotcount from the command line without any arguments will prompt
+the user with the arguments Dotcount expect, like this:
+
+Usage: dotcount <prepared_image.pnm> <original_image.pnm> <nm_scale>
+		<px_scale>
+
+30-7-2011, Joacim
