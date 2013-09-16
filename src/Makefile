@@ -1,5 +1,5 @@
 # Makefile for dotcount
-# Copyright 2011 Joacim Thomassen
+# Copyright 2011-2013 Joacim Thomassen
 #
 # `ulimit -c unlimited` # to allow corefiles of unlimited size in bash
 #
