@@ -1,5 +1,5 @@
 /* Dotcount - This program counts black separate regions (dots) in an image.
- * Copyright (C) 2009-2013  Joacim Thomassen
+ * Copyright (C) 2009-2014  Joacim Thomassen
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -23,10 +23,7 @@
  * marching squares algorithm.
  *
  * Initial date: 31-10-2009
- * Changed date: 30-7-2011
- *
- * TODO: Refactor: Too cryptic, make easier to apprehend. Need more levels of
- *       abstraction. 10/3-2011
+ * Changed date: 16-2-2014
  *
  * marchingSquares.cpp
  */
@@ -73,8 +70,8 @@ void MarchingSquares::identify_perimeter(const size_t initial_x,
 
     do {
 	const Direction *direction = NULL;
-	state currState = 0;
-	switch (currState = getState(x, y)) {
+	state currState = getState(x, y);
+	switch (currState) {
 	case  1: direction = Heading::north; break;
 	case  2: direction = Heading::east; break;
 	case  3: direction = Heading::east; break;
@@ -121,7 +118,7 @@ void MarchingSquares::identify_perimeter(const size_t initial_x,
 	cout << endl;
     }
 
-    // marking only visited initial (path origin)  perimeter cell
+    // marking only visited initial (path origin) perimeter cell
     size_t initCellNo = initial_y * width + initial_x;
     if (initCellNo < width * height) {
 	visitedCells.at(initCellNo) = true;

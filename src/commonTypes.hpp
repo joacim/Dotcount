@@ -1,5 +1,5 @@
 /* Dotcount - This program counts black separate regions (dots) in an image.
- * Copyright (C) 2011-2013  Joacim Thomassen
+ * Copyright (C) 2011-2014  Joacim Thomassen
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  *
  *
  * Initial date: 1-2-2011
- * Changed date: 30-7-2011
+ * Changed date: 16-2-2014
  *
  * commonTypes.hpp
  */
@@ -36,8 +36,8 @@
 #include "commonTypes.hpp"
 
 const std::string PROGRAM = "Dotcount";
-const std::string VERSION = "2.2";
-const std::string VERDATE = "(2011-7-30)";
+const std::string VERSION = "2.3";
+const std::string VERDATE = "(2014-2-16)";
 
 
 
