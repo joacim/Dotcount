@@ -1,5 +1,5 @@
 /* Dotcount - This program counts black separate regions (dots) in an image.
- * Copyright (C) 2011-2013  Joacim Thomassen
+ * Copyright (C) 2011-2016  Joacim Thomassen
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
