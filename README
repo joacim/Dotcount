@@ -1,16 +1,8 @@
-Dotcount counts black separate regions (dots) in an image, reports the dot
-perimeter and approximates the diameter on the assumption that all dots are
-circular.
 
-The marching squares algorithm encapsulates each identified region (dot) in
-a unique path. This path defines the identified dot's perimeter.
+Project moved to GitLab 
+due to better licensing terms and 
+higher trust in service owners.
 
-Dotcount was written entirely by myself in my spare time. This code is the
-result of my own ideas and knowledge of the marching squares algorithm.
-Dotcount started as a rewrite of Tom Giabara's implementation of the
-algorithm released in the public domain.
+From here on this repository only historical. 
 
-Dotcount was created to help my wife with her PhD work. She extracted
-quantum dot densities and sizes from SEM images using only pen and paper.
-
-Joacim Thomassen, 30-7-2011
+Joacim Thomassen, 29-7-2018
